@@ -1,0 +1,19 @@
+{
+  "name": "coupon-management-backend",
+  "version": "1.0.0",
+  "description": "E-commerce Coupon Management System Backend",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test src/tests/*.test.js"
+  },
+  "keywords": ["coupon", "ecommerce", "express"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}

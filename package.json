@@ -1,0 +1,14 @@
+{
+  "name": "coupon-management",
+  "version": "1.0.0",
+  "description": "E-commerce Coupon Management System",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "start-backend": "cd backend && npm start",
+    "start-frontend": "cd frontend && npm run dev",
+    "test": "cd backend && npm test"
+  },
+  "keywords": ["coupon", "ecommerce", "express", "react"],
+  "author": "",
+  "license": "MIT"
+}
