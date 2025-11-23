@@ -1,26 +1,11 @@
 # Dependencies
 node_modules/
 package-lock.json
-yarn.lock
-
-# Build outputs
-dist/
-build/
 
 # Environment variables
 .env
 .env.local
 .env.production
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
 
 # Logs
 logs/
@@ -34,3 +19,7 @@ coverage/
 # Temporary files
 *.tmp
 .cache/
+
+# OS
+.DS_Store
+Thumbs.db
